@@ -23,7 +23,7 @@ a =  2 + 3j
 # String
  a = "Krish"
  b = "Arman - nikamma"
- c = 'Dalip - nikamma'
+ c = 'Dalip'
  d = """Junaid"""
 
 # print(type(a))
