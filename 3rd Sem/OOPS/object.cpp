@@ -1,7 +1,8 @@
-#include <iostream>
+#include <iostream> 
 #include <string>
 using namespace std;
 
+// class definition
 class Car { 
 public:    
     string brand;
