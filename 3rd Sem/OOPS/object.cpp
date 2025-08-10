@@ -17,9 +17,7 @@ int main() {
 
     myCar.brand = "Toyota";
     myCar.year = 2024;
-
     myCar.displayDetails();
-
     Car anotherCar;
     anotherCar.brand = "Ford";
     anotherCar.year = 2020;
