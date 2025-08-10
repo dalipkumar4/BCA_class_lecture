@@ -1,28 +1,31 @@
-#include <iostream> 
-#include <string>
+#include <iostream>
 using namespace std;
 
-// class definition
-class Car { 
-public:    
-    string brand;
-    int year;
+/* Class */
+class Student {
+public:
+    int rollNo;
+    int age;
 
-    void displayDetails() { 
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+    void show() {
+        cout << "Roll No: " << rollNo << endl;
+        cout << "Age: " << age << endl;
     }
 };
 
 int main() {
-    Car myCar; // Create an object named 'myCar' of the 'Car' class
+    /* Objects */
+    Student s1;   // object 1
+    Student s2;   // object 2
 
-    myCar.brand = "Toyota";
-    myCar.year = 2024;
-    myCar.displayDetails();
-    Car anotherCar;
-    anotherCar.brand = "Ford";
-    anotherCar.year = 2020;
-    anotherCar.displayDetails();
+    s1.rollNo = 1;
+    s1.age = 18;
+
+    s2.rollNo = 2;
+    s2.age = 19;
+
+    s1.show();
+    s2.show();
 
     return 0;
 }
